@@ -347,7 +347,7 @@ config rule
 	option dest_port '80 443'
 	option target 'REJECT'
 
-config forwarding
-	option src 'lan'
-	option dest 'unspecified'
+# config forwarding
+#	option src 'lan'
+#	option dest 'unspecified'
 
