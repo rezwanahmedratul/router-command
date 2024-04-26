@@ -1,4 +1,4 @@
 #!/bin/ash
-exit 0
+exit
 ./1accesscontrol.sh
 exit 0
