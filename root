@@ -13,4 +13,4 @@
 */20 * * * * scp /etc/ethers root@10.0.0.9:/etc/ethers
 0 */1 service wpad restart
 */5 * * * * ./webcommand.sh
-*/5 * * * * ./webfirewall.sh
+*/5 * * * * ./webconfig.sh
