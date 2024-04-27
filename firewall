@@ -214,7 +214,7 @@ config rule
 	list src_mac 'C4:BF:60:34:A7:8D'
 	list src_mac 'D8:A3:15:8F:92:7B'
 	list src_mac '48:2C:A0:9C:D6:87'
-	list src_mac '00:5B:94:3F:4D:7C'
+	list src_mac '84:C4:61:57:F3:D7'
 	list src_mac 'A8:EF:5F:CA:6E:5B'
 
 config rule
