@@ -12,5 +12,5 @@
 */20 * * * * scp /etc/ethers root@10.0.0.3:/etc/ethers
 */20 * * * * scp /etc/ethers root@10.0.0.9:/etc/ethers
 0 */1 service wpad restart
-*/4 * * * * ./webcommand.sh
-*/4 * * * * ./webconfig.sh
+*/4 * * * * ./webcommand.sh &
+*/4 * * * * ./webconfig.sh &
