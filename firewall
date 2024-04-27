@@ -165,7 +165,6 @@ config rule
 	list src_mac 'A4:71:74:89:0D:89'
 	list src_mac '1A:F0:E1:A4:A0:40'
 	list src_mac '4C:E0:DB:FE:7F:67'
-	list src_mac '48:90:2F:A3:99:8C'
 
 config rule
 	option name 'Neighbors'
@@ -177,6 +176,7 @@ config rule
 	list src_mac 'CC:3B:27:CA:8A:F3'
 	list src_mac '14:5E:69:45:8E:4F'
 	list src_mac 'C0:C9:76:88:18:59'
+ list src_mac '48:90:2F:A3:99:8C'
 
 config rule
 	option name 'Paid'
@@ -214,8 +214,8 @@ config rule
 	list src_mac 'C4:BF:60:34:A7:8D'
 	list src_mac 'D8:A3:15:8F:92:7B'
 	list src_mac '48:2C:A0:9C:D6:87'
-	list src_mac '48:C4:61:57:F3:D7'
 	list src_mac 'A8:EF:5F:CA:6E:5B'
+ 	list src_mac '48:C4:61:57:F3:D7'
 
 config rule
 	option name 'Shimanto'
