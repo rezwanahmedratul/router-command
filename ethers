@@ -1,0 +1,87 @@
+#
+#  Lookup man 5 ethers for syntax documentation
+#
+#  Examples :
+#	02:00:11:22:33:44	OpenWrt.lan
+#	02:00:11:22:33:44	192.168.1.1
+
+
+E0:CC:F8:4A:C4:82 Ratul                         
+48:22:54:CD:1D:15 Archer-C20
+3C:84:6A:48:01:DC TP-Link-Anik
+F4:F2:6D:A3:D9:CE TP-Link-Bayzid-Vaia
+04:BA:D6:14:3F:FC D-Link-Salman
+34:0A:33:6D:B5:DA D-Link-Sabbir
+EC:08:6B:BC:F3:D6 DD-WRT-Sadhin
+8C:DE:F9:DC:49:90 Mi-4C
+48:2C:A0:9C:D6:87 Sabbir                       
+FC:19:99:1B:90:82 Saddam_Vai              
+C4:0B:CB:8C:ED:C3 Anik                            
+0C:F3:46:F3:CC:A9 Babu-cacchu.            
+14:96:E5:0E:4D:BB Abir                            
+00:0A:F5:8B:4A:AD Sabbir-2                      
+14:5E:69:45:8E:4F Nasim-Cacchu           
+CC:3B:27:CA:8A:F3 Bayzid-Cacchu          
+D8:B0:53:5A:0A:87 Kader-vai                 
+30:6A:85:23:DF:30 Kader-vai-2               
+AC:6C:90:EB:0D:05 Alamin-vai                 
+E4:93:6A:AA:96:E9 Munifa                       
+C4:06:83:B5:29:C7 Mohammed-vai       
+48:2C:A0:6A:9A:52 Shimanto                  
+7C:03:AB:84:E0:BB Mukti-Shaheb         
+C4:DF:39:41:97:A1 Shaharia                 
+30:4F:00:74:C5:65 Salman                    
+E8:5A:8B:2F:FE:39 Emon                       
+1C:9F:4E:BE:39:B7 Irfan                         
+74:56:3C:37:DA:60 Salman-PC              
+E4:93:6A:AA:D8:21 Khadija 
+B2:BE:76:5E:30:95 Mahadi-R                    
+C4:AB:B2:C4:34:DB Vivo-M                
+E4:8C:73:11:A5:09 Shihab                      
+0C:90:43:5E:30:95 Mahadi                   
+B2:BE:76:4A:C4:82 Ratul-M                       
+C8:9B:D7:F6:B6:77 Jarin                       
+A4:CC:B9:4F:AC:0D Ohi-Cacchu            
+F8:2D:7C:76:8F:6B Muntasir                  
+44:E7:61:BC:4A:7D Nirob                        
+14:1F:78:B1:1E:8E Boro-abbu             
+28:C5:38:9A:FE:AB Bayzid-vaia            
+E8:FB:E9:C0:E3:98 Badhon                  
+C0:C9:76:88:18:59 Alamin-Cacchu        
+B2:BE:76:BC:4A:7D Nirob-R                     
+E4:84:D3:81:C1:6D Sadhin                                  
+24:11:45:AF:84:26 Munifa-2                                
+80:19:70:37:0C:2E Sajid                                      
+EC:08:6B:BC:F3:D6 DD-wrt                                  
+DC:31:D1:BD:76:6D Tasnim-Mama                         
+50:F0:D3:18:50:CE Sornali-Fuppi                          
+44:8C:00:07:E4:D3 Chini-Fuppi                              
+F4:21:CA:C4:EC:24 Fahad-Vaia                              
+A4:71:74:89:0D:89 Nasif                                       
+DC:8D:91:A6:B2:2D Kholil-Vai                               
+B4:0F:B3:1F:0C:5D Mahadi-Mama                       
+B2:BE:76:1F:0C:5D Mahadi-Mama R                   
+18:65:90:07:7B:4B Jui-Apu                                  
+48:90:2F:A3:99:8C Nasifer-Mama                        
+1A:F0:E1:A4:A0:40 Fahad-Vaia-Iphone                
+94:8A:C6:F1:6E:AB Lafiz                             
+D0:FC:CC:AB:B7:DC Laboni-Fuppi
+E8:F7:91:9B:07:6C Labloni-Fuppi-2
+04:7C:16:3E:84:FD Shimanto-PC
+18:4E:CB:5E:24:CD Sarna-Apu
+A0:27:B6:C7:8E:FD Tushar-Vai
+7C:46:85:61:10:02 Sagor-Vaia
+40:B6:07:52:3E:0D Sagor-Vaia-N
+C4:40:F6:BB:81:D7 Vabi-Sagor-Vaia
+DC:A9:56:D7:A3 E5 Auntie-Shimanto
+E4:34:93:44:31:E9 Uncle-Shimanto
+B0:4E:26:DB:49:10 TP-LINK-WL280
+00:E0:4C:A9:07:59 Abir-PC
+14:96:E5:0E:4D:BB Abir
+70:B0:C0:C7:9A:4C Abir-P6
+A4:D8:CA:8D:0C:27 Sawon-Vaia-Vabi
+78:DB:5C:30:80:FC Sawon-Vaia
+48:79:4D:93:7F:07 Sayem-Vaia
+BA:63:94:F4:41:F3 Himel-vaia
+FC:AA:14:DB:AF:49 Himel-Vaia-PC
+48:02:86:F2:F6:8F Himel-Vaia-DMA

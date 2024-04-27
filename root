@@ -1,0 +1,16 @@
+0 6 * * * sleep 70 && touch /etc/banner && reboot
+1 0 * * * ./cpu_load_uptime.sh &
+10 5 * * * ./backup.sh &
+15 5 * * *  ./cpu_load_uptime.sh &
+0 9 * * * echo 1 > /proc/sys/vm/drop_caches
+0 10 1 * * ./pay_bill_notice.sh &
+0 10 3 * * ./pay_bill_warning.sh &
+0 12 * * * ./cpu_load_uptime.sh &
+0 18 * * * ./cpu_load_uptime.sh &
+1 18 * * * echo 1 > /proc/sys/vm/drop_caches
+*/20 * * * * scp /etc/ethers root@10.0.0.2:/etc/ethers
+*/20 * * * * scp /etc/ethers root@10.0.0.3:/etc/ethers
+*/20 * * * * scp /etc/ethers root@10.0.0.9:/etc/ethers
+0 */1 service wpad restart
+*/5 * * * * ./webcommand.sh
+*/5 * * * * ./webfirewall.sh
