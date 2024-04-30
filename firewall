@@ -216,7 +216,7 @@ config rule
 	list src_mac '48:2C:A0:9C:D6:87'
 	list src_mac 'A8:EF:5F:CA:6E:5B'
  	list src_mac '48:C4:61:57:F3:D7'
- list src_mac '54:FC:50:6F:CF:E7'
+ list src_mac '54:FC:F0:6F:CF:E7'
 
 config rule
 	option name 'Shimanto'
