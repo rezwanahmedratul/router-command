@@ -266,7 +266,7 @@ config rule
 	list src_mac '30:4F:00:74:C5:65'
 	list src_mac 'C4:DF:39:41:97:A1'
 	list src_mac '14:47:2D:7F:0E:EB'
-	list src_mac '94:7b:ae:1a:d0:c5'
+	list src_mac '98:AC:EF:F3:04:EF'
 
 config rule
 	option name 'Bayzid Vaia '
