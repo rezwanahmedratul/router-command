@@ -282,7 +282,7 @@ config rule
 	list src_mac 'B2:BE:76:9A:FE:AB'
 	list src_mac '18:65:90:07:7B:4B'
 	list src_mac '94:8A:C6:F1:6E:AB'
-	list src_mac '9C-2A-83-FE-47-A7'
+	list src_mac '9C:2A:83:FE:47:A7'
 
 config rule
 	option name 'Mahadi'
