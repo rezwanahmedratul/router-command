@@ -142,6 +142,7 @@ config rule
 	list src_mac 'C8:9B:D7:F6:B6:77'
 	option dest 'wan'
 	option target 'ACCEPT'
+ option enabled '0'
 
 config rule
 	option name 'Friends'
