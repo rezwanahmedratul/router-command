@@ -247,7 +247,7 @@ config rule
 	list src_mac '18:4E:CB:5E:24:CD'
 	list src_mac '6C:00:6B:B2:4C:EB'
 	list proto 'all'
- option enabled '0'
+ option enabled '1'
 
 config rule
 	option name 'Sadhin '
