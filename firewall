@@ -310,6 +310,22 @@ config rule
 	list src_mac 'E8:F7:91:9B:07:6C'
 
 config rule
+	option name 'Anik'
+	list src_mac 'C4:0B:CB:8C:ED:C3'
+	option dest 'wan'
+	option target 'ACCEPT'
+	list proto 'all'
+	option src 'lan'
+
+config rule
+	option name 'Arafat'
+	option src 'lan'
+	option dest 'wan'
+	option target 'ACCEPT'
+	list proto 'all'
+	list src_mac '1C:9F:4E:C3:AB:B6'
+
+config rule
 	option name 'Router '
 	option src 'lan'
 	option dest 'wan'
@@ -325,22 +341,6 @@ config rule
 	option src 'wan'
 	option dest_port '20 21'
 	option target 'ACCEPT'
-
-config rule
-	option name 'Anik'
-	list src_mac 'C4:0B:CB:8C:ED:C3'
-	option dest 'wan'
-	option target 'ACCEPT'
-	list proto 'all'
-	option src 'lan'
-
-config rule
-	option name 'Arafat'
-	option src 'lan'
-	option dest 'wan'
-	option target 'ACCEPT'
-	list proto 'all'
-	list src_mac '1C:9F:4E:C3:AB:B6'
 
 config rule
 	option name 'allow http'
