@@ -332,7 +332,6 @@ config rule
 	option target 'ACCEPT'
 	list proto 'all'
 	option src 'lan'
- option enabled '0'
 
 config rule
 	option name 'allow http'
