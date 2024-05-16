@@ -176,8 +176,8 @@ config rule
 	list src_mac 'CC:3B:27:CA:8A:F3'
 	list src_mac '14:5E:69:45:8E:4F'
 	list src_mac 'C0:C9:76:88:18:59'
- list src_mac '48:90:2F:A3:99:8C'
- list src_mac 'E4:BC:AA:6B:B1:A3'
+  list src_mac '48:90:2F:A3:99:8C'
+  list src_mac 'E4:BC:AA:6B:B1:A3'
 
 config rule
 	option name 'Paid'
@@ -216,8 +216,8 @@ config rule
 	list src_mac 'D8:A3:15:8F:92:7B'
 	list src_mac '48:2C:A0:9C:D6:87'
 	list src_mac 'A8:EF:5F:CA:6E:5B'
- list src_mac '54:FC:F0:6F:CF:E7'
- option enabled '1'
+  list src_mac '54:FC:F0:6F:CF:E7'
+  option enabled '1'
 
 config rule
 	option name 'Shimanto'
@@ -245,7 +245,7 @@ config rule
 	list src_mac '18:4E:CB:5E:24:CD'
 	list src_mac '6C:00:6B:B2:4C:EB'
 	list proto 'all'
- option enabled '1'
+  option enabled '1'
 
 config rule
 	option name 'Sadhin '
@@ -268,7 +268,7 @@ config rule
 	list src_mac 'C4:DF:39:41:97:A1'
 	list src_mac '14:47:2D:7F:0E:EB'
 	list src_mac '98:AC:EF:F3:04:EF'
- option enabled '1'
+  option enabled '1'
 
 config rule
 	option name 'Bayzid Vaia '
@@ -303,7 +303,7 @@ config rule
 	option target 'ACCEPT'
 	list proto 'all'
 	list src_mac '48:C4:61:57:F3:D7'
- list src_mac 'D0:39:FA:60:E3:05'
+  list src_mac 'D0:39:FA:60:E3:05'
 
 config rule
 	option name 'Laboni Fuppi'
@@ -371,5 +371,5 @@ config rule
 config forwarding
 	option src 'lan'
 # option dest 'wan'
- option dest 'unspecified'
+  option dest 'unspecified'
 
