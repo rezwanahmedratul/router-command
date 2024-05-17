@@ -3,4 +3,5 @@
 # sh 1accesscontrol.sh
 # sleep 20
 # reboot
+service wpad restart
 
