@@ -4,4 +4,4 @@
 # sleep 20
 # reboot
 # service wpad restart
-sh cpu_load_uptime.sh
+# sh cpu_load_uptime.sh
