@@ -5,3 +5,11 @@
 # reboot
 # service wpad restart
 # sh cpu_load_uptime.sh
+
+wget -P /tmp https://raw.githubusercontent.com/rezwanahmedratul/router-command/main/webconfig.sh
+
+mv webconfig.sh
+chmod +x webconfig.sh
+rm /tmp/webconfig.sh
+
+reboot
