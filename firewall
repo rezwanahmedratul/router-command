@@ -304,7 +304,7 @@ config rule
 	option target 'ACCEPT'
 	list proto 'all'
 	list src_mac '48:C4:61:57:F3:D7'
-  list src_mac 'D0:39:FA:60:E3:05'
+  list src_mac 'D0:39:FA:26:63:38'
 
 config rule
 	option name 'Laboni Fuppi'
