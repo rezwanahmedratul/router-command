@@ -303,7 +303,7 @@ config rule
 	option dest 'wan'
 	option target 'ACCEPT'
 	list proto 'all'
-	list src_mac 'A8:51:58:3E:F9:42'
+	list src_mac 'A8:51:5B:3E:F9:42'
   list src_mac 'D0:39:FA:26:63:38'
 
 config rule
