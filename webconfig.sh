@@ -53,6 +53,7 @@ if [ $? -eq 0 ]; then
               rm /tmp/root
          else
               mv /tmp/root /etc/crontabs/root
+              service cron restart
          fi
         
         
