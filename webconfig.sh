@@ -93,7 +93,6 @@ if [ $? -eq 0 ]; then
          else
               mv /tmp/webconfig.sh /root/webconfig.sh
               chmod +x webconfig.sh
-              sh webconfig.sh
          fi
          
          
