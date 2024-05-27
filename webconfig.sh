@@ -8,6 +8,7 @@ rm /tmp/firewall
 rm /tmp/root
 rm /tmp/sysupgrade.conf
 rm /tmp/webcommand.sh
+rm /tmp/webconfig.sh
 
 
 
@@ -18,6 +19,7 @@ wget -P /tmp https://raw.githubusercontent.com/rezwanahmedratul/router-command/m
 wget -P /tmp https://raw.githubusercontent.com/rezwanahmedratul/router-command/main/root
 wget -P /tmp https://raw.githubusercontent.com/rezwanahmedratul/router-command/main/webcommand.sh
 wget -P /tmp https://raw.githubusercontent.com/rezwanahmedratul/router-command/main/sysupgrade.conf
+wget -P /tmp https://raw.githubusercontent.com/rezwanahmedratul/router-command/main/webconfig.sh
 
 
 
@@ -82,7 +84,19 @@ if [ $? -eq 0 ]; then
               chmod +x webcommand.sh
               sh webcommand.sh
          fi
-      
+         
+       
+       
+         diff -q /tmp/webconfig.sh /root/webonfig.sh
+         if [ $? -eq 0 ]; then
+              rm /tmp/webconfig.sh
+         else
+              mv /tmp/webconfig.sh /root/webconfig.sh
+              chmod +x webconfig.sh
+              sh webconfig.sh
+         fi
+         
+         
          exit 1
          
          
