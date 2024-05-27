@@ -59,7 +59,7 @@ if [ $? -eq 0 ]; then
          if [ $? -eq 0 ]; then
               rm /tmp/wireless
          else
-              mv /tmp/wireless /etc/wireless
+              mv /tmp/wireless /etc/config/wireless
               service wpad restart
          fi
          
