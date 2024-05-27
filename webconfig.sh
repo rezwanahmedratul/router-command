@@ -65,7 +65,7 @@ if [ $? -eq 0 ]; then
               mv /tmp/wireless /etc/config/wireless
               wifi reload radio0
               wifi reload radio1
-              service wpad restart
+            # service wpad restart
          fi
          
          
