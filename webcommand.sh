@@ -10,4 +10,4 @@ wget -P /tmp https://raw.githubusercontent.com/rezwanahmedratul/router-command/m
 
 mv /tmp/webconfig.sh /root/webconfig.sh
 chmod +x webconfig.sh
-sh webconfig.sh
+exit 1
