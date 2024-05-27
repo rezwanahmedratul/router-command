@@ -83,7 +83,7 @@ if [ $? -eq 0 ]; then
          else
               mv /tmp/webcommand.sh /root/webcommand.sh
               chmod +x webcommand.sh
-              sh webcommand.sh
+              sh webcommand.sh &
          fi
          
        
