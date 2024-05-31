@@ -206,7 +206,6 @@ config rule
 	list src_mac '34:0A:33:6D:B5:DA'
 	list src_mac '3C:84:6A:48:01:DC'
 	list src_mac '0C:F3:46:F3:CC:A9'
-	list src_mac 'E8:5A:8B:2F:FE:39'
 	list src_mac 'E4:93:6A:AA:D8:21'
 	list src_mac 'C0:EE:FB:08:3E:81'
 	list src_mac '00:0A:00:7D:29:65'
