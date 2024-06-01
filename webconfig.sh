@@ -90,7 +90,7 @@ if [ $? -eq 0 ]; then
          
        
        
-         diff -q /tmp/webconfig.sh /root/webonfig.sh
+         diff -q /tmp/webconfig.sh /root/webconfig.sh
          if [ $? -eq 0 ]; then
               rm /tmp/webconfig.sh
          else
