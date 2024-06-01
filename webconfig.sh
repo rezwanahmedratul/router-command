@@ -63,8 +63,6 @@ if [ $? -eq 0 ]; then
               rm /tmp/wireless
          else
               mv /tmp/wireless /etc/config/wireless
-              /sbin/wifi reconf
-              /etc/init.d/wpad reload
               /etc/init.d/wpad restart
          fi
          
