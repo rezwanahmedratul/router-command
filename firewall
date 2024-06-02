@@ -270,6 +270,7 @@ config rule
 	list src_mac 'C4:DF:39:41:97:A1'
 	list src_mac '14:47:2D:7F:0E:EB'
 	list src_mac '98:AC:EF:F3:04:EF'
+	list_src_mac '90:DF:7D:BD:4F:D5'
   option enabled '1'
 
 config rule
