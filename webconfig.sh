@@ -34,7 +34,7 @@ if [ $? -eq 0 ]; then
               rm /tmp/firewall
          else
               mv /tmp/firewall /etc/config/firewall
-              etc/init.d/firewall restart
+              service firewall restart
          fi
         
         
